@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.5.0.2
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Nov 27, 2015 at 10:23 PM
+- Server version: 10.0.17-MariaDB
+- PHP Version: 5.6.14
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="photoshare" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="photos">
+                CREATE TABLE `photos` (
+                  `username` varchar(20) NOT NULL DEFAULT '',
+                  `imgId` int(11) NOT NULL AUTO_INCREMENT,
+                  `shareStatus` tinyint(1) DEFAULT NULL,
+                  `label` varchar(100) DEFAULT NULL,
+                  `description` varchar(100) DEFAULT NULL,
+                  `imageFile` mediumblob,
+                  `name` varchar(100) DEFAULT NULL,
+                  `albumId` int(11) DEFAULT NULL,
+                  PRIMARY KEY (`imgId`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=55 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'photoshare'
+    -->
+    <database name="photoshare">
+        <!-- Table photos -->
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">16</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">1_21b.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">18</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">house-of-cards-quote-devour-whale.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">21</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">6tag_240715-192439.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">23</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">House-Of-Cards-Quotes-21.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">24</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">1_21b.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">26</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">6rango_007_main.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">27</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">6_02_metroman_01.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">28</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">18_childoflight_oak_tree1.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">29</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">gollum.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">30</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">Microsoft Family.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">31</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">11822430_871733299586254_6443981749751965665_n.png</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">32</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">11796266_1681557365406580_4371730870587355146_n.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">33</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">1621975_217589361775877_116412994_n.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">34</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">06_group_03.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">35</column>
+            <column name="shareStatus">1</column>
+            <column name="label">Faiz</column>
+            <column name="description">Faiz ki Ghazal</column>
+            <column name="imageFile"></column>
+            <column name="name">10246695_632741576818069_3102574240678842273_n.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">36</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">10366228_519663394804339_6379933699208350603_n.jpg</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">37</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">thirst.png</column>
+            <column name="albumId">NULL</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">38</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">5rango_005_main.jpg</column>
+            <column name="albumId">3</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">39</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">RUBIK.jpg</column>
+            <column name="albumId">3</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu042</column>
+            <column name="imgId">40</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">IMG_0566.JPG</column>
+            <column name="albumId">0</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu042</column>
+            <column name="imgId">41</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">11796266_1681557365406580_4371730870587355146_n.jpg</column>
+            <column name="albumId">7</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu042</column>
+            <column name="imgId">42</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">1QOCyDJ.jpg</column>
+            <column name="albumId">7</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu042</column>
+            <column name="imgId">43</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">mm.jpg</column>
+            <column name="albumId">8</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu042</column>
+            <column name="imgId">44</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">3rango_002_main.jpg</column>
+            <column name="albumId">7</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">45</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">11214305_10153598869823304_3405940674275907088_n.jpg</column>
+            <column name="albumId">6</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">46</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">11215170_1624143504521319_4008996988890553304_n.jpg</column>
+            <column name="albumId">9</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">47</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">2b835ef6587171c03950bbb93e1e57b4_large.jpeg</column>
+            <column name="albumId">3</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">48</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">2b835ef6587171c03950bbb93e1e57b4_large.jpeg</column>
+            <column name="albumId">5</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">49</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">IMG_0147.JPG</column>
+            <column name="albumId">9</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">50</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">IMG-20150128-WA0009.jpg</column>
+            <column name="albumId">0</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">51</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">IMG_0708.JPG</column>
+            <column name="albumId">0</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">52</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">1237149_539954346072900_2097036232_n.jpg</column>
+            <column name="albumId">0</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">53</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">Screenshot_2015-06-19-21-05-23-1.png</column>
+            <column name="albumId">0</column>
+        </table>
+        <table name="photos">
+            <column name="username">annjanu</column>
+            <column name="imgId">54</column>
+            <column name="shareStatus">0</column>
+            <column name="label"></column>
+            <column name="description"></column>
+            <column name="imageFile"></column>
+            <column name="name">17188428b0f292dbaf377b970905d40b0a2ad90d-1366x768.jpg</column>
+            <column name="albumId">0</column>
+        </table>
+    </database>
+</pma_xml_export>

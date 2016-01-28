@@ -1,0 +1,9 @@
+body
+{
+    background-image:url('backImg.jpg');
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
